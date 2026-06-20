@@ -1,0 +1,8 @@
+Subject: Reminder
+
+Dear Employee,
+This is a reminder regarding your pending task.
+Please complete it soon.
+
+Regards,
+Management
