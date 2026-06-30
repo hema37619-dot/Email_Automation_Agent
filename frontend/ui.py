@@ -4,6 +4,11 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 import streamlit as st
 from agent.email_agent import EmailAgent
 
+# --- TEMPORARY DEBUG: remove once secrets are confirmed working ---
+st.write("EMAIL_ADDRESS loaded:", bool(st.secrets.get("EMAIL_ADDRESS")))
+st.write("EMAIL_PASSWORD loaded:", bool(st.secrets.get("EMAIL_PASSWORD")))
+# -------------------------------------------------------------------
+
 st.set_page_config(
     page_title="Email Automation Agent",
     page_icon="📧",
